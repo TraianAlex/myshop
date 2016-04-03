@@ -18,9 +18,25 @@
 <body id="app-layout">
     @include('inc.nav')
 
-    @yield('content')
-
     <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+            @if(Session::has('message'))
+                <div class="alert alert-info">
+                  {{ Session::get('message') }}
+                </div>
+            @endif
+            </div>      
+        </div>
+        <div class="row">
+            <div class="col-md-9">
+                @yield('content')
+            </div>
+            <div class="col-md-3">
+                @include('inc.sidebar')
+            </div>
+        </div>
+
         <hr>
 
         <footer>

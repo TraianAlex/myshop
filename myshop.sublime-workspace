@@ -103,8 +103,48 @@
 			"file": "/Users/victor/Dropbox/setup/laravel",
 			"settings":
 			{
-				"buffer_size": 11817,
+				"buffer_size": 11924,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/User.php",
+			"settings":
+			{
+				"buffer_size": 738,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/migrations/2016_04_03_195445_create_products_table.php",
+			"settings":
+			{
+				"buffer_size": 778,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/ProductController.php",
+			"settings":
+			{
+				"buffer_size": 1749,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 1166,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/Admin/ProductController.php",
+			"settings":
+			{
+				"buffer_size": 1576,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -136,6 +176,14 @@
 	},
 	"file_history":
 	[
+		"/Users/victor/Dropbox/www/laravel/myshop/app/Http/Kernel.php",
+		"/Users/victor/Dropbox/www/laravel/myshop/app/Http/Middleware/AdminAuthentication.php",
+		"/Users/victor/Dropbox/www/laravel/myshop/database/migrations/2016_04_03_200216_add_is_admin_to_user_table.php",
+		"/Users/victor/Dropbox/www/laravel/myshop/config/services.php",
+		"/Users/victor/Dropbox/www/laravel/myshop/.env",
+		"/Users/victor/Dropbox/www/laravel/myshop/database/migrations/2016_04_03_193605_AddUserCashier.php",
+		"/Users/victor/Dropbox/www/laravel/myshop/composer.json",
+		"/Users/victor/Dropbox/www/laravel/myshop/config/app.php",
 		"/Users/victor/Dropbox/www/laravel/myshop/resources/views/auth/emails/password.blade.php",
 		"/Users/victor/Dropbox/www/laravel/myshop/app/Http/routes.php",
 		"/Users/victor/Dropbox/www/laravel/myshop/resources/views/member/discounts.blade.php",
@@ -145,20 +193,16 @@
 		"/Users/victor/Dropbox/www/laravel/myshop/app/Http/Controllers/Auth/AuthController.php",
 		"/Users/victor/Dropbox/www/laravel/myshop/resources/views/layouts/app.blade.php",
 		"/Users/victor/Dropbox/www/laravel/myshop/database/migrations/2016_04_03_161005_AddUserLocation.php",
-		"/Users/victor/Dropbox/www/laravel/myshop/.env",
 		"/Users/victor/Dropbox/www/laravel/myshop/config/database.php",
 		"/Users/victor/Dropbox/setup/laravel2",
 		"/Users/victor/Dropbox/setup/laravel (VICTOR’s MacBook Pro's conflicted copy 2016-01-22)",
 		"/Users/victor/Dropbox/www/laravel/myshop/public/.htaccess",
-		"/Users/victor/Dropbox/www/laravel/myshop/config/services.php",
 		"/Users/victor/Dropbox/www/laravel/myshop/config/mail.php",
 		"/Users/victor/Dropbox/www/laravel/myshop/app/Http/Controllers/ContactController.php",
 		"/Users/victor/Dropbox/www/laravel/myshop/resources/views/pages/contact/create.blade.php",
 		"/Users/victor/Dropbox/www/laravel/myshop/resources/views/errors/contact.blade.php",
-		"/Users/victor/Dropbox/www/laravel/myshop/config/app.php",
 		"/Users/victor/Dropbox/www/laravel/myshop/app/Http/Requests/ContactFormRequest.php",
 		"/Users/victor/Dropbox/www/laravel/myshop/app/Http/Controllers/AboutController.php",
-		"/Users/victor/Dropbox/www/laravel/myshop/composer.json",
 		"/Users/victor/Dropbox/www/laravel/myshop/resources/views/pages/about/index.blade.php",
 		"/Users/victor/Dropbox/www/laravel/myshop/resources/views/welcome.blade.php",
 		"/Users/victor/Dropbox/www/laravel/myshop/resources/assets/sass/app.scss",
@@ -259,11 +303,7 @@
 		"/Users/victor/Dropbox/www/laravel/quotes/database/migrations/2016_03_20_174051_create_quotes_table.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Quote.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/welcome.blade.php",
-		"/Users/victor/Dropbox/www/laravel/quotes/config/database.php",
-		"/Users/victor/Dropbox/www/laravel/medium-login/.gitignore",
-		"/Users/victor/Dropbox/setup/laravel",
-		"/Users/victor/Dropbox/www/laravel/medium-login/app/Http/Controllers/Auth/AuthController.php",
-		"/Users/victor/Dropbox/www/laravel/medium-login/app/EmailLogin.php"
+		"/Users/victor/Dropbox/www/laravel/quotes/config/database.php"
 	],
 	"find":
 	{
@@ -306,6 +346,7 @@
 	"groups":
 	[
 		{
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -339,15 +380,15 @@
 					"file": "/Users/victor/Dropbox/setup/laravel",
 					"settings":
 					{
-						"buffer_size": 11817,
+						"buffer_size": 11924,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1315,
-								1348
+								11834,
+								11834
 							]
 						],
 						"settings":
@@ -358,6 +399,147 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/User.php",
+					"settings":
+					{
+						"buffer_size": 738,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								405,
+								405
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "database/migrations/2016_04_03_195445_create_products_table.php",
+					"settings":
+					{
+						"buffer_size": 778,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								524,
+								524
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 92.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/Http/Controllers/ProductController.php",
+					"settings":
+					{
+						"buffer_size": 1749,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								375,
+								375
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/Http/routes.php",
+					"settings":
+					{
+						"buffer_size": 1166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1097,
+								1097
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 203.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/Http/Controllers/Admin/ProductController.php",
+					"settings":
+					{
+						"buffer_size": 1576,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1573,
+								1573
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -436,7 +618,7 @@
 		[
 			[
 				"",
-				"/Users/victor/Dropbox/www/laravel/laravelx1/laravelx1.sublime-project"
+				"/Users/victor/Dropbox/www/www.sublime-project"
 			],
 			[
 				"de",

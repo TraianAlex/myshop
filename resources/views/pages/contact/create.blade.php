@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<div class="container">
+
 	<h1>Contact MyShop</h1>
 	@if (count($errors) > 0)
 		<div class="alert alert-danger">
@@ -38,5 +38,5 @@
 		    {!! Form::submit('Contact Us!', ['class'=>'btn btn-primary']) !!}
 		</div>
 	{!! Form::close() !!}
-</div>
+
 @endsection
