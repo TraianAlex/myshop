@@ -106,38 +106,6 @@
 				"buffer_size": 11817,
 				"line_ending": "Windows"
 			}
-		},
-		{
-			"file": "resources/views/inc/nav.blade.php",
-			"settings":
-			{
-				"buffer_size": 2035,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Http/Controllers/DiscountsController.php",
-			"settings":
-			{
-				"buffer_size": 213,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Http/routes.php",
-			"settings":
-			{
-				"buffer_size": 932,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Http/Controllers/Auth/AuthController.php",
-			"settings":
-			{
-				"buffer_size": 2228,
-				"line_ending": "Unix"
-			}
 		}
 	],
 	"build_system": "",
@@ -168,6 +136,11 @@
 	},
 	"file_history":
 	[
+		"/Users/victor/Dropbox/www/laravel/myshop/resources/views/auth/emails/password.blade.php",
+		"/Users/victor/Dropbox/www/laravel/myshop/app/Http/routes.php",
+		"/Users/victor/Dropbox/www/laravel/myshop/resources/views/member/discounts.blade.php",
+		"/Users/victor/Dropbox/www/laravel/myshop/app/Http/Controllers/DiscountsController.php",
+		"/Users/victor/Dropbox/www/laravel/myshop/resources/views/inc/nav.blade.php",
 		"/Users/victor/Dropbox/www/laravel/myshop/resources/views/auth/register.blade.php",
 		"/Users/victor/Dropbox/www/laravel/myshop/app/Http/Controllers/Auth/AuthController.php",
 		"/Users/victor/Dropbox/www/laravel/myshop/resources/views/layouts/app.blade.php",
@@ -176,7 +149,6 @@
 		"/Users/victor/Dropbox/www/laravel/myshop/config/database.php",
 		"/Users/victor/Dropbox/setup/laravel2",
 		"/Users/victor/Dropbox/setup/laravel (VICTOR’s MacBook Pro's conflicted copy 2016-01-22)",
-		"/Users/victor/Dropbox/www/laravel/myshop/app/Http/routes.php",
 		"/Users/victor/Dropbox/www/laravel/myshop/public/.htaccess",
 		"/Users/victor/Dropbox/www/laravel/myshop/config/services.php",
 		"/Users/victor/Dropbox/www/laravel/myshop/config/mail.php",
@@ -291,11 +263,7 @@
 		"/Users/victor/Dropbox/www/laravel/medium-login/.gitignore",
 		"/Users/victor/Dropbox/setup/laravel",
 		"/Users/victor/Dropbox/www/laravel/medium-login/app/Http/Controllers/Auth/AuthController.php",
-		"/Users/victor/Dropbox/www/laravel/medium-login/app/EmailLogin.php",
-		"/Users/victor/Dropbox/www/laravel/medium-login/app/Http/routes.php",
-		"/Users/victor/Dropbox/www/laravel/medium-login/resources/views/auth/login.blade.php",
-		"/Users/victor/Dropbox/www/laravel/medium-login/storage/logs/laravel.log",
-		"/Users/victor/Dropbox/www/laravel/medium-login/.env"
+		"/Users/victor/Dropbox/www/laravel/medium-login/app/EmailLogin.php"
 	],
 	"find":
 	{
@@ -338,7 +306,6 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
 				{
@@ -391,118 +358,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "resources/views/inc/nav.blade.php",
-					"settings":
-					{
-						"buffer_size": 2035,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2017,
-								2017
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 443.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/Http/Controllers/DiscountsController.php",
-					"settings":
-					{
-						"buffer_size": 213,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								68,
-								68
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/Http/routes.php",
-					"settings":
-					{
-						"buffer_size": 932,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								932,
-								932
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 52.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/Http/Controllers/Auth/AuthController.php",
-					"settings":
-					{
-						"buffer_size": 2228,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								908,
-								908
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 407.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
