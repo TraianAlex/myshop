@@ -29,3 +29,5 @@ Route::post('contact', [
 	'as' => 'contact_store',
     'uses' => 'ContactController@store'
 ]);
+
+Route::resource('discounts', 'DiscountsController', ['only' => ['index']]);

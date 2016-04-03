@@ -1,1 +1,4 @@
-Click here to reset your password: <a href="{{ $link = url('password/reset', $token).'?email='.urlencode($user->getEmailForPasswordReset()) }}"> {{ $link }} </a>
+It appears you left the sprinklers on too long and your password was washed away. Not to worry! Follow the link below to obtain a new password: <a href="{{ $link = url('password/reset', $token).'?email='.urlencode($user->getEmailForPasswordReset()) }}"> {{ $link }} </a>
+
+Thanks,
+Mr. Alex
