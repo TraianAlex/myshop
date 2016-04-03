@@ -35,4 +35,16 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'mandrill' => [
+        'secret' => env('MAIL_PASSWORD'),
+    ],
 ];
+
+/*
+MAIL_DRIVER=mandrill
+MAIL_HOST=smtp.mandrillapp.com
+MAIL_PORT=587
+MAIL_USERNAME=victor92
+MAIL_PASSWORD=N7mkAmcqxFwYdjMfoiCc1A
+MAIL_ENCRYPTION=null
+*/
