@@ -74,7 +74,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">Add a coupon</div>
             <div class="panel-body">
-                {!! Form::open(array('route' => 'plans.coupon', 'class' => 'form-inline')) !!}
+                {!! Form::open(['route' => 'plans.coupon', 'class' => 'form-inline']) !!}
                     <div class="form-group">
                         <label for="coupon">Coupon</label>
                         <input type="text" name="coupon" class="form-control" id="coupon">

@@ -59,11 +59,21 @@ class SubscriptionsController extends Controller {
             return redirect()->back()->withErrors('Plan is required');
         }
         $user = Auth::user();
-        $user->subscription($planId)->create($request->get('stripe_token'), [
-            'email' => $user->email,
-            'metadata' => [
-                'name' => $user->name,
-            ],
+        // $user->subscription($planId)->create($request->get('stripe_token'), [
+        //     'email' => $user->email,
+        //     'metadata' => [
+        //         'name' => $user->name,
+        //     ],
+        // ]);
+
+        $creditCardToken = $request->get('stripe_token');
+        $user->newSubscription($planId, 'monthly')
+             ->withCoupon('SPRING')
+             ->create($creditCardToken, [
+                'email' => $user->email,
+                'metadata' => [
+                    'name' => $user->name,
+                ],
         ]);
 
         return redirect('invoices');
@@ -90,7 +100,7 @@ class SubscriptionsController extends Controller {
 
     public function cancelPlan()
     {
-        Auth::user()->subscription()->cancel();
+        Auth::user()->subscription()->cancel();//cancelled
         return redirect('invoices');
     }
 }

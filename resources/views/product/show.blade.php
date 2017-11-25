@@ -10,7 +10,7 @@
 {!! Form::hidden('product_id', $product->id) !!}
 <script
 src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-data-key="{{env('STRIPE_API_PUBLIC')}}"
+data-key="{{ env('STRIPE_KEY', 'pk_test_2RyzeuD9IWA5VMWNYns0E4mI') }}"
 data-name="myshop.embassy-pub.com"
 data-billingAddress=true
 data-shippingAddress=true
@@ -19,6 +19,20 @@ data-description="{{ $product->name }}"
 data-amount="{{ $product->priceToCents() }}">
 </script>
 {!! Form::close() !!}
+
+<br />
+
+<form action="" method="POST">
+  <script
+    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    data-key="pk_test_2RyzeuD9IWA5VMWNYns0E4mI"
+    data-amount="{{ $product->priceToCents() }}"
+    data-name="myshop.embassy-pub.com"
+    data-description="{{ $product->name }}"
+    data-image="/128x128.png"
+    data-locale="auto">
+  </script>
+</form>
 
 <br />
 

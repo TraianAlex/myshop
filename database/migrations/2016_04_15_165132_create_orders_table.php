@@ -29,6 +29,8 @@ class CreateOrdersTable extends Migration {
 			$table->string('shipping_state')->nullable();
 			$table->string('shipping_zip')->nullable();
 			$table->string('shipping_country')->nullable();
+			$table->string('order_number');
+			$table->string('onetimeurl')->nullable();
 			$table->timestamps();
 		});
 	}

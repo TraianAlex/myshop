@@ -59,8 +59,8 @@
 
 @section('footer_js')
     <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
-    <script>
-        Stripe.setPublishableKey('{{ env('STRIPE_API_PUBLIC') }}');
+    <script type="text/javascript">
+        Stripe.setPublishableKey('{{ env('STRIPE_KEY', 'pk_test_2RyzeuD9IWA5VMWNYns0E4mI') }}');
 
         jQuery(function($) {
             $("#card-number").focusout(function() {
